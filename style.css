@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-left div:hover , .find-store:hover {
-    color: #00754a;
+    color: rgb(0,120,183);
 }
 
 .navbar-left div {

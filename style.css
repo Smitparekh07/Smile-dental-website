@@ -1,0 +1,159 @@
+/* starbucks home page css */
+
+
+
+body {
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue , Helvetica , Arial , sans-serif;
+}
+
+.navbar {
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.25);
+}
+
+.navbar-left img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navbar-left div:hover , .find-store:hover {
+    color: #00754a;
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-left , .navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left > * , .navbar-right > * {
+    margin: 10px;
+}
+
+.find-store {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.sign-in,
+.join-now {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+
+.join-now {
+    background-color: black;
+    color: white;
+}
+
+.join-now:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sign-in:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.product img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.product-container {
+    margin: 40px 0px 40px 0px;
+}
+
+.product {
+    display: flex;
+}
+
+.product-left , .product-right {
+    max-width: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    font-weight: 600;
+}
+
+.product-decription {
+    text-align: center;
+    padding: 30px 60px 30px 60px;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+.product-button {
+    color: black;
+    border: 1px solid black;
+    max-width: max-content;
+    padding: 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.product-button-black {
+    border-color: black;
+    color: black;
+}
+
+.product-button-white {
+    border-color: black;
+    color: black;
+}
+
+.footer {
+    background-color: rgb(0,120,183);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer .social-media {
+    text-align: center;
+    padding: 10px;
+}
+
+.social-media .fab{
+    color: white;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    size: 9x;
+
+}
+
+.info p {
+    color: white;
+}
